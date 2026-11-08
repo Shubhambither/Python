@@ -8,7 +8,7 @@ def sri():
     # print("My note on " ,d,"was : "+ws['N41'].value)
     values=[]
 
-    for row in range(7,ws.max_row+1):
+    for row in range(7,):
         value=ws.cell(row=row,column=2).value
         if value is not None:
             values.append(value)
